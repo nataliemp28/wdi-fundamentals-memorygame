@@ -1,3 +1,28 @@
-/* This is a multi-line
-comment. Add your CSS code
-from Unit 1 - 5 below  */
+.board {
+	height: 80%;
+	width: 50%;
+	display: inline-block;
+}
+.card {
+	height: 200px;
+	width: 150px;
+    border-style: solid;
+	border-color: rgb(0,0,0);
+	border-width: 1px;
+	border-radius: 10px;
+	background-color: yellow;
+}
+h1 {
+	color: rgb(2, 132, 130);
+}
+h2 {
+	color: #ffd700;
+}
+.name {
+	font-style: italic;
+	font-weight: bold;
+	color: #ff0000;
+}
+body {
+	text-align: center;
+}
