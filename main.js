@@ -11,24 +11,14 @@ var cardFour = "king";
 //}
 
 
-
-var board = document.getElementById("game-board");
-
-for (var i = 0; i < board.length; i +=4) {
-	board.createElement("div");
-	board.className("card");
-}
-document.appendChild("board");
-
-//6 ) Append each newly created card to the div that has the 
-//class board
-
-
-var createBoard = function() {
-	for (var i = 0; i < createBoard.length; i +=4) {
-		createBoard.appendChild("game-board")
-
+var createBoard = function(){
+	var oldBoard = document.getElementById("game-board");
+  
+	for(var i = 0; i < 4; i++) {
+      
+      var newCards = document.createElement('div');
+      newCards.className = "card";
+      oldBoard.appendChild(newCards);
 	}
-	createboard();
- 
-}
+};
+createBoard();
